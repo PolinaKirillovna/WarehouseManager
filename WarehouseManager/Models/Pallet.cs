@@ -1,3 +1,5 @@
+using StockManager.Exceptions;
+
 namespace StockManager.Models;
 
 public class Pallet : WarehouseItem
@@ -24,7 +26,7 @@ public class Pallet : WarehouseItem
         }
         else
         {
-            throw new ArgumentException("Box dimensions exceed the pallet dimensions.");
+            throw PalletExceprions.BoxSizeError(box, this);
         }
     }
 }

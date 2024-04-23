@@ -1,8 +1,8 @@
 namespace StockManager.Exceptions;
 
-public abstract class StockExceptions : Exception
+public abstract class WarehouseExceptions : Exception
 {
-    private protected StockExceptions(string? message) 
+    private protected WarehouseExceptions(string? message) 
         : base(message)
     {
     }

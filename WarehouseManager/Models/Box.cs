@@ -1,3 +1,5 @@
+using StockManager.Exceptions;
+
 namespace StockManager.Models;
 
 public class Box : WarehouseItem
@@ -19,9 +21,8 @@ public class Box : WarehouseItem
     {
         if (productionDate == null && expiryDate == default(DateTime))
         {
-            throw new ArgumentException("If production date is not provided, expiry date must be specified.");
+            throw BoxExceptions.MissingProductionOrExpiryDate();
         }
-
 
         Weight = weight;
         ProductionDate = productionDate;
