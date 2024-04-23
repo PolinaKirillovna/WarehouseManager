@@ -1,0 +1,6 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1238cbf2_002Ddee0_002D4c4f_002Da03f_002D2be74cea9c4c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SortPalletsByExpiryDateAndWeight_EmptyCollection_ShouldThrowException" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::A85F6B52-9FF2-4BD8-BED3-5148B1C21C74::net6.0::StockManager.Tests.WarehouseServiceTests.SortPalletsByExpiryDateAndWeight_EmptyCollection_ShouldThrowException&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

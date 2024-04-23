@@ -1,3 +1,4 @@
+using System;
 using StockManager.Exceptions;
 using StockManager.Models;
 using Xunit;

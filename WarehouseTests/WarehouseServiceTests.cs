@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using StockManager.Exceptions;
 using StockManager.Models;
 using StockManager.Services;
